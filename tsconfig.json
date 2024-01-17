@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@pages/*": ["./page/*"],
+            "@test/*": ["./test/*"],
+            "@data/*": ["./data/*"],
+        }
+    },
+    "include": ["**/*.ts"],
+    "excluse": ["node_modules"]
+}
